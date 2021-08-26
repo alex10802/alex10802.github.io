@@ -6,11 +6,14 @@
 
 body {
     background-color: #ededed;
+    background: url('imagenes/1.jpg') no-repeat;
+    background-size: cover;
 }
 
 .home {
     display: flex;
     flex-wrap: wrap;
+    text-align: center;
 }
 
 .in-flex {
@@ -21,7 +24,7 @@ body {
 .in-flex:first-child {
     flex: 2;
     padding: 25px;
-    background-color: #fff;
+    background-color: rgb(51, 53, 50);
     margin: 20px;
     margin-bottom: px;
 }
@@ -30,4 +33,12 @@ body {
     padding: 25px;
     background-color: #fff;
     margin: 20px;
+}
+
+label {
+    text-align: center;
+}
+
+.in-img {
+    border-radius: 50%;
 }
