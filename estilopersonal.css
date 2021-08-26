@@ -1,44 +1,88 @@
-* {
-    padding: 0px;
-    margin: 0px;
-    background-color: Century Gothic;
-}
-
 body {
-    background-color: #ededed;
-    background: url('imagenes/1.jpg') no-repeat;
+    background-color: rgb(255, 255, 255);
+    background: url('imagenes/logo.png');
     background-size: cover;
 }
 
-.home {
-    display: flex;
-    flex-wrap: wrap;
+div {
+    margin: auto;
+    width: 880px;
     text-align: center;
 }
 
-.in-flex {
-    flex: 1;
-    min-width: 250px;
+h1 {
+    font-family: Arial, 'Times New Roman', Arial, Helvetica;
+    padding: 20px;
+    margin: 0%;
+    font-size: 60px;
 }
 
-.in-flex:first-child {
-    flex: 2;
-    padding: 25px;
-    background-color: rgb(51, 53, 50);
-    margin: 20px;
-    margin-bottom: px;
-}
-
-.in-flex div {
-    padding: 25px;
-    background-color: #fff;
-    margin: 20px;
-}
-
-label {
+.enc-final {
+    background-color: rgb(46, 43, 45);
     text-align: center;
+    color: #f5f0f0;
 }
 
-.in-img {
+p {
+    background: rgb(255, 252, 255);
+    background: radial-gradient(cursive, rgba(255, 255, 255, 1) 45%, rgba(215, 240, 255, 1) 100%);
+    text-align: center;
+    margin: 0%;
+    padding: 3% 6%;
+    font-family: 'Archivo Narrow', sans-serif;
+    border-style: none none none double;
+    border-color: rgb(30, 3, 34);
+}
+
+.pimg {
+    border-style: none none none double;
+    border-color: rgb(10, 10, 10);
     border-radius: 50%;
+}
+
+nav {
+    background-color: rgba(34, 54, 42, 0.548);
+    padding: 14px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+ul {
+    text-align: center;
+    display: inline;
+    padding: 5px;
+    margin: 0px;
+}
+
+table {
+    border-collapse: collapse;
+    font-family: 'Archivo Narrow', sans-serif;
+}
+
+h3 {
+    font: times;
+    font-size: 50px;
+    border-style: none none double none;
+    border-color: rgb(5, 5, 5);
+    color: rgb(10, 10, 10);
+    margin-bottom: 0%;
+}
+
+footer {
+    font-family: Helvetica, sans-serif, Arial;
+    margin: 40px 0px 0px 0px;
+    padding: 10px 5px;
+    font-size: 14px;
+    text-align: center;
+}
+
+td,
+tr {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+tr:nth-child(even) {
+    background-color: #f1f3f3
 }

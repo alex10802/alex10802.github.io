@@ -5,46 +5,68 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Probando Para Ingenieria Web</title>
+    <title>Mi primera página web </title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="estilopersonal.css">
+    <link href="estilopersonal.css" rel="stylesheet" />
+
+    <style>
+        a:hover {
+            background-color: rgb(132, 131, 133);
+            color: rgb(246, 255, 255);
+            text-decoration: none;
+            padding: 5px 20px;
+        }
+        
+        li {
+            display: inline-block;
+        }
+    </style>
+
 </head>
 
 <body>
-    <section class="home">
-        <div class="in-flex">
-            <h1>Bienvenido a mi pagina Web</h1>
-            <img src="imagenes/logo.png" alt="" width="100" class="in-logo">
-            <nav>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
+    <header>
+        <h1 class="enc-final"> Mi Pagina web Personal</h1>
+
+        <nav>
+            <ul>
+                <li>
+                    <a href="acerca.html"> About  </a>
+                </li>
+                <li>
+                    <a>    |   </a>
+                </li>
+                <li>
+                    <a href="contactos.html">   Contacts </a>
+                </li>
+            </ul>
+        </nav>
+
+    </header>
 
 
-            </nav>
-        </div>
-        <div class="in-flex">
-            <div>
+    <div>
+
+        <h3 class="nombre"> Huaripata Culqui Milton Alex </h3>
+        <h2 class="carrera">Ingeniero de Sistemas</h2>
+        <img class="pimg" src="imagenes/YOP.jpg" alt="alexito" title=" alex" width=218 height="330" />
+
+        <p> Estudiante de Ingenieria de Sistemas de la Facultad de Ingenieria de la Prestigiosa Universidad Nacional de Cajamarca, en la actualidad trabajo para la empresa QUIANBEI SRL en el area de Recursos Humanos, pero me interesa la gestion de proyectos,
+            tambien me gusta la aventura, viajar jugar futbool y la uena musica
+        </p>
+
+    </div>
 
 
-                <img src="imagenes/yop.jpg" width="180" alt="" class="in-img">
 
-                <h2>Milton Alex Huariata Culqui</h2>
-                <h3>Engineer System</h3>
+    <footer class="enc-final">
+        <label> © Todos los derechos reservados</label>
+        <h4>Huaripata Culqui, Milton Alex</h4>
+    </footer>
 
+    <script src=" game.js" async defer></script>
 
-
-            </div>
-            <div>Estudiante de Ingenieria de Sistemas de la Facultad de Ingenieria de la Prestigiosa Universidad Nacional de Cajamarca, en la actualidad trabajo para la empresa QUIANBEI SRL en el area de Recursos Humanos, pero me interesa la gestion de proyectos,
-                tambien me gusta la aventura, viajar jugar futbool y la uena musica</div>
-        </div>
-    </section>
-
-    <label>© 2021 All Rights Reserved. Design By Huaripata Culqui Milton Alex </label>
-
-
-    <script src="" async defer></script>
 </body>
 
 </html>
