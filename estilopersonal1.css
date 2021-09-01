@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Cormorant Garamond', serif;
+}
+
+navbar {
+    background-color: rgba(255, 255, 255, 0.7) !important;
+}
+
+.navbar div,
+navbar ul {
+    background-color: transparent !important;
+}
+
+.cont_sec_1 {
+    padding: 10%;
+}
+
+.cont_sec_1_link {
+    padding: 5%;
+}
+
+.cont_sec_1_link a {
+    width: 200px;
+}
+
+cont_sec_1_link hr {
+    border-top: 1px solid rgba(1, 1, 1, 0.3);
+}
