@@ -1,68 +1,82 @@
 <!DOCTYPE html>
-<html lang="en">
 
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>lab05</title>
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" &amp;gt;>
+    <title>LAB 05: TALLER DE JAVASCRIPT</title>
     <link rel="stylesheet" href="css/lab05.css">
 </head>
 
 <body>
-    <section>
-        <div class="cont_banner">
-            <div class="sombra">
-                <h1>LAB 05: TALLER DE JAVASCRIPT</h1>
-                <p></p>
-                <div class="grupo1">
-                    <div class="input-group flex-nowrap">
-                        <span class="input-group-text1" id="addon-wrapping">Apellidos y Nombres: </span>
-                        <input type="text" size="22px" class="form-control" placeholder="Ingreso Nombres y Apellidos" aria-label="Username" aria-describedby="addon-wrapping">
-                    </div>
-                    <div class="input-group flex-nowrap">
-                        <span class="input-group-text1" id="addon-wrapping">Fecha de Nacimiento:&nbsp</span>
-                        <input type="text" size="22px" class="form-control" placeholder="Ingreso Fecha de Nacimiento" aria-label="Username" aria-describedby="addon-wrapping">
-                    </div>
-                    <p></p>
-                </div>
-                <div class="grupo2">
-                    <div class="input-group flex-nowrap">
-                        <span class="input-group-text1" id="addon-wrapping">Apellido Paterno:&nbsp </span>
-                        <input type="text" size="18px" class="form-control" placeholder="" aria-label="Username" aria-describedby="addon-wrapping">
-                    </div>
-                    <div class="input-group flex-nowrap">
-                        <span class="input-group-text1" id="addon-wrapping">Apellido Materno:</span>
-                        <input type="text" size="18px" class="form-control" placeholder="" aria-label="Username" aria-describedby="addon-wrapping">
-                    </div>
-                    <div class="input-group flex-nowrap">
-                        <span class="input-group-text1" id="addon-wrapping">Nombres: &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp </span>
-                        <input type="text" size="18px" class="form-control" placeholder="" aria-label="Username" aria-describedby="addon-wrapping">
-                    </div>
-                </div>
-                <div class="grupo3">
-                    <div class="input-group flex-nowrap">
-                        <span class="input-group-text" id="addon-wrapping">Longitud de Apellidos:&nbsp</span>
-                        <input type="text" size="15px" class="form-control" placeholder="" aria-label="Username" aria-describedby="addon-wrapping">
-                    </div>
-                    <div class="input-group flex-nowrap">
-                        <span class="input-group-text" id="addon-wrapping">Edad: &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp&nbsp</span>
-                        <input type="text" size="15px" class="form-control" placeholder="" aria-label="Username" aria-describedby="addon-wrapping">
-                    </div>
-                    <div class="input-group flex-nowrap">
-                        <span class="input-group-text" id="addon-wrapping">Mes en letras: &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp</span>
-                        <input type="text" size="15px" class="form-control" placeholder="" aria-label="Username" aria-describedby="addon-wrapping">
-                    </div>
-                </div>
+    <header>
+        <h1>LAB 05: TALLER DE JAVASCRIPT</h1>
+    </header>
+    <div>
 
-                <div class="botones">
-                    <a href="#" class="btn btn-secondary btn-md">Extraer</a>
-                    <a href="#" class="btn1 btn-secondary btn-md">Colorear</a>
-                </div>
-            </div>
+        <table>
+            <tr>
+                <td class="celda" id="APEnom">Apellidos y nombres: </td>
+                <td class="celda1"> <input type="text" placeholder="Ingreso apellidos y nombres" id="IAPEnom"> </input>
+                </td>
+            </tr>
+            <tr>
+                <td class="celda" id="FECnac">Fecha de nacimiento: </td>
+                <td class="celda1"><input type="text" placeholder="Ingreso fecha de nacimiento mm/dd/aa" id="IFECnac"> </input>
+                    </th>
+            </tr>
+        </table>
+        <div>
+            <button type="button" class="btn" id="extraer"> Extraer</button>
+            <button type="button" class="btn1" id="colorear"> Colorear</button>
         </div>
-    </section>
+    </div>
+
+    <div class="pos">
+        <table>
+            <tr>
+                <td class="celda" id="APEpat">Apellido paterno:</td>
+                <td class="celda1"><input type="text" value=" " id="IAPEpat"> </input>
+                </td>
+            </tr>
+            <tr>
+                <td class="celda" id="APEmat">Apellido materno:</td>
+                <td class="celda1"> <input type="text" value=" " id="IAPEmat"> </input>
+                </td>
+            </tr>
+            <tr>
+                <td class="celda" id="NOM">Nombres: </td>
+                <td class="celda1"> <input type="text" value=" " id="INOM"> </input>
+                </td>
+            </tr>
+        </table>
+        <table class="pos">
+            <tr>
+                <td class="celda2" id="LONape">Longitud de apellido: </td>
+                <td class="celda1"> <input type="text" value=" " id="ILONape"> </input>
+                </td>
+            </tr>
+            <tr>
+                <td class="celda2" id="EDA">Edad: </td>
+                <td class="celda1"> <input type="text" value=" " id="IEDA"> </input>
+                </td>
+            </tr>
+            <tr>
+                <td class="celda2" id="MES">Mes en letras: </td>
+                <td class="celda1"> <input type="text" value=" " id="IMES"> </input>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div>
+        <p>Cuando se presione el boton "Extraer", se debe mostrar en forma separada apellido paterno, apellido materno y nombres y el mes en letras. Calcular la longitude del apellido y la edad. <br> Cuando se presione en "Colorear", cambiar el color azul
+            a rojo y viceversa.</p>
+
+    </div>
+    <input class="poshora" type="date">
+
+    <script src="js/lab05.js" async defer></script>
+    <script></script>
 </body>
 
 </html>
